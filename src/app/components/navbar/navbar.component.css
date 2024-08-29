@@ -1,3 +1,4 @@
+
 header {
     background-color: rgb(8, 8, 8);
     position: relative;
@@ -7,6 +8,9 @@ header {
 }
 .nabvar{
     display: none;
+    position: absolute !important;
+    top: 0;
+    z-index: 2 !important;
 }
 .links {
     display: flex;

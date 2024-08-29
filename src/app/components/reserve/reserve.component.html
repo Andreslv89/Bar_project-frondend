@@ -1,0 +1,28 @@
+<header>
+    <div class="container-reserv">
+        
+    </div>
+    <!-- <div class="bg"></div> -->
+    <div class="container-list">
+        <div class="data-reserv">
+            
+            <form [formGroup]="reserveForm">
+                <h2> BAR</h2>
+                <h1> LA TRIBUNA</h1>
+                <div class="form_input">
+                    <label for="name">Nombres</label>
+                    <input formControlName="name" type="text">  
+                </div>
+                <div class="form_input">
+                    <label for="documento">Correo</label>
+                    <input formControlName="email" max="80" type="tel">
+                </div>
+                <div class="form_input">
+                    <label for="date">Fecha de Reserva</label>
+                    <input formControlName="date" type="date">
+                </div>
+                <button type="Submit" [disabled]="reserveForm.invalid" (click)="onSubmit()" class="button">Reserva ahora</button>
+            </form>
+        </div>
+    </div>
+</header>

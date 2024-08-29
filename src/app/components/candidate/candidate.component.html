@@ -1,0 +1,32 @@
+<section>
+    <div class="container-candidate">
+        
+    </div>
+    <div class="container-list2">
+        <div class="data-candidate">          
+            <form [formGroup]="candidateForm">
+                <div class="form_input2">
+                    <label for="name">Nombre Completo</label>
+                    <input placeholder="Ingrese su nombre" formControlName="NombreCompleto" type="text" >  
+                </div>
+                <div class="form_input2">
+                    <label for="documento">Telefono/celular</label>
+                    <input placeholder="Ingrese telefono" formControlName="Telefono" type="tel">
+                </div>
+                <div class="form_input2">
+                    <label for="date">Correo Electronico</label>
+                    <input placeholder="ingrese email" formControlName="Email" type="text" >
+                </div>
+                <div class="form_input2">
+                    <label for="date">Adjunta Hoja de vida</label>
+                    <input type="file" (change)="onFileSelected($event)" multiple type="file" >
+                </div>
+                <button type="Submit" (click)="onUpload()" class="button">Enviar</button>
+            </form>
+            <div class="logo">
+                <img src="assets/img/lading page.png" alt="logo bar">
+            
+            </div>
+        </div>
+    </div>
+</section>

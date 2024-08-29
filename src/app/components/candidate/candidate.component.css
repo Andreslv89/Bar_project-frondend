@@ -1,0 +1,84 @@
+section {
+    background-color:rgb(242, 245, 248);
+    margin: 0;
+    overflow-x: hidden;
+}
+.container-candidate{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(202, 216, 230);
+}
+.container-list2{
+    display: flex;
+    justify-content:start;
+    width: 100%;
+    height: 600px;
+}
+.data-candidate{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:0px;
+    width: 100%;
+    padding: 0 3rem;
+}
+.data-candidate button{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 2rem;
+    color: rgb(9, 9, 8);
+    background-color:rgb(251, 207,108);
+    border: none;
+    border-radius: 10px;
+    padding:10px;
+}
+.data-candidate button:hover{
+    transform: scale(1.2);
+
+}
+form{
+    padding: 1rem 2rem;
+    height: 400px;
+    width: 700px;
+    background-position: center;
+    opacity: .80;
+    border-radius: 30px;
+    align-content: center;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+}
+form input{
+    border: 1px solid gray;
+    border-top-left-radius: 10px;
+    margin-top: 20px;
+    height: 38px;
+    width: 600px;
+    color: rgb(2, 2, 2);
+    background-color:white;
+    margin: 6px;
+} 
+.form_input2{
+    margin: 3px;
+    align-items:start;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+} 
+.logo img{
+    justify-self: end;
+    align-self: center;
+    margin-left: 15px;
+    height: 300px;
+    width: 350px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
