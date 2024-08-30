@@ -4,10 +4,16 @@
 }
 
 .container_services {
-    display: grid;
-    grid-template-columns: 1fr 18rem;  
-    height: 25rem;
-    background-color: #144b7b;
+    display: flex; 
+    height: 30rem;
+    background-image: url(./../../../../public/assets/img/backgraundbeertwo.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75% 100%;
+    background-position: right;
+    background-color: black;
+
 }
 
 .container_services_one{
@@ -21,7 +27,7 @@
     font-weight: bold;
     padding-top: 20px;  
     color: #fbcf6c;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     text-decoration: none;
     font-family: 'Cooper Black';
     align-items: center;
@@ -33,27 +39,27 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,2fr);
-    align-items: center;
     height: 10rem;
     padding: 10px;
-    color: white;
     text-align: center;
-    border-color: white;
 }
 
 
 .columns a{
-    font-size: 20px;
+    font-size: 23px;
     padding-bottom: 20px;
     font-family: 'Preahvihear'
 }
 
 .columns img {
     height: 8rem;
-    box-shadow: 0 0 30px #181c03;
     margin: 8px;
-    transition: 0.5s;
+    transition: 0.8s;
     object-fit: cover;
+    box-shadow: 0 0 30px #6d4305;
+    margin: 10px;
+    transition: 0.5s;
+    
 }
 
 .columns img:hover{
