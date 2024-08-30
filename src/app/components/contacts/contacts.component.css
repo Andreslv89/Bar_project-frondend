@@ -1,0 +1,128 @@
+.container_four {
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    height: 20rem;
+    background-color:  #144b7b;
+    align-content: space-between;
+}
+
+.container_four_card_one {
+    color:  #fbcf6c;
+    justify-items: right;
+    align-items: center;
+}
+
+.container_four_card_one h2{
+    text-align: center;
+    padding-top: 20px;
+    color:  #fbcf6c;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: 'Cooper Black';
+}
+
+
+.container_four_icon_one{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0;
+    justify-items: center;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.container_four_icon_one h3{
+    text-align: left;
+    color: #fbcf6c;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.container_four_icon_one p{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.container_four_card_two {
+    height: 50px;
+    width: 100%;
+    align-content: center;
+}
+
+.container_four_card_two  h2 {
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(74, 10, 78);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.container_four_icon_two {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-content: center;
+    padding-left: 20px;
+    margin: 0;
+    justify-items: center;
+}
+
+.icon {
+    position:relative;
+    background-color: #941aad;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .8s;
+}
+
+.icon i {
+    font-size: 40px;
+    color: #FFF;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon:hover:nth-child(1) {
+    background-color: #e931a2;
+    box-shadow: 0 0 20px #e931a2;
+}
+.icon:hover:nth-child(2) {
+    background-color: #1b18cc;
+    box-shadow: 0 0 20px #1b18cc;
+}
+.icon:hover:nth-child(3) {
+    background-color: #10370e;
+    box-shadow: 0 0 20px #090909;
+}
+
+
+.icon circle{
+    align-items: center;
+    stroke-dasharray: 10;
+    transition: all .8s ease-in-out;
+}
+
+.icon:hover circle {
+    stroke-dasharray: 220;
+}
+
+iframe {
+height: 15rem;
+width: 40rem;
+padding-right: 20px;
+}
+
+
+
+
+
+
