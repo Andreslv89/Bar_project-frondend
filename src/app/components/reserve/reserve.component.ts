@@ -2,12 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { ReserveService } from '../../services/reserve.service';
 import Swal from 'sweetalert2';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { CarouselComponent } from '../carousel/carousel.component';
 
 
 @Component({
   selector: 'app-reserve',
   standalone: true,
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule, CarouselComponent],
   templateUrl: './reserve.component.html',
   styleUrl: './reserve.component.css'
 })

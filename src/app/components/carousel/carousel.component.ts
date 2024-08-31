@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-carousel',
@@ -9,5 +8,8 @@ import { RouterLink } from '@angular/router';
   styleUrl: './carousel.component.css'
 })
 export class CarouselComponent {
+  @Input() img1!: string
+  @Input() img2!: string
+  @Input() img3!: string
   
 }
