@@ -2,6 +2,11 @@ section {
     background-color:rgb(242, 245, 248);
     margin: 0;
     overflow-x: hidden;
+    border-color: black;
+    border-width: 2px 50px 5px;
+    border-style: solid double solid;
+
+    
 }
 .container-candidate{
     width: 100%;

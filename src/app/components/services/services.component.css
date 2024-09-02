@@ -5,7 +5,7 @@
 
 .container_services {
     display: flex; 
-    height: 30rem;
+    height: 35rem;
     background-image: url(./../../../../public/assets/img/backgraundbeertwo.png);
     background-size: auto;
     background-repeat: no-repeat;
@@ -13,12 +13,13 @@
     background-size: 75% 100%;
     background-position: right;
     background-color: black;
+    box-shadow: 0 0 30px #6d4305;
 
 }
 
 .container_services_one{
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 
@@ -53,22 +54,17 @@
 
 .columns img {
     height: 8rem;
-    margin: 8px;
+    margin: 10px;
     transition: 0.8s;
     object-fit: cover;
-    box-shadow: 0 0 30px #6d4305;
-    margin: 10px;
-    transition: 0.5s;
-    
+    box-shadow: 0 0 50px #6d4305;   
 }
 
 .columns img:hover{
     transform: scale(1.1);
 }
 
-.container_services_two img{
-    height: 50px   
-}
+
 
 
 
