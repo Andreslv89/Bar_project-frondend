@@ -3,11 +3,13 @@ import { AnnouncementsComponent } from '../announcements/announcements.component
 import { ServicesComponent } from '../services/services.component';
 import { ContactsComponent } from '../contacts/contacts.component';
 import { CarouselComponent } from '../carousel/carousel.component';
+import { SuscribeComponent } from '../suscribe/suscribe.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [AnnouncementsComponent, ServicesComponent, ContactsComponent,CarouselComponent],
+  imports: [AnnouncementsComponent, ServicesComponent,
+  ContactsComponent,CarouselComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
