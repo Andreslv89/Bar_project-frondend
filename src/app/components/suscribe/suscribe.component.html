@@ -1,6 +1,13 @@
 <section>
-    <button class="Btn">
-        Suscribete
-    </button>
+  <button class="Btn" (click)="openModal()">Suscribete</button>
+  @if (isOpen) {
+  <div class="modal-subscribe" [formGroup]="suscribeForm">
+    <h4>Subcribete</h4>
+    <input type="email" formControlName="email" />
+    <button (click)="onSubmit()" class="button">enviar</button>
+  </div>
+  }
+  @else {
+    
+  }
 </section>
-

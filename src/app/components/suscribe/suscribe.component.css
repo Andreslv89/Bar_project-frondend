@@ -1,3 +1,7 @@
+section {
+  position: relative;
+}
+
 .Btn {
   position: relative;
   width: 150px;
@@ -39,6 +43,33 @@
   animation: jello-horizontal 0.9s both;
 }
 
+.modal-subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 4rem;
+  right: 1rem;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 300px;
+  height: 230px;
+  opacity: .87;
+}
+.modal-subscribe button{
+  display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+    margin-top: 2rem;
+    color: rgb(251, 207,108);
+    background-color:rgb(8, 35,64);
+    border: none;
+    border-radius: 10px;
+    padding:10px;
+}
 @keyframes jello-horizontal {
   0% {
     transform: scale3d(1, 1, 1);
