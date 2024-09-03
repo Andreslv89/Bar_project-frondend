@@ -1,14 +1,19 @@
 header {
-    background-color:rgb(23, 75, 123);
+    background-color:black;
     margin: 0;
     overflow-x: hidden;
+    background-image:url(./../../../../public/assets/img/tribune.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 90%;
+    
 }
 
 .container-reserv{
     width: 100%;
     height: 350px;
     background-color: rgb(202, 216, 230);
-
 }
 
 .container-list{
@@ -16,10 +21,6 @@ header {
     justify-content: center;
     width: 100%;
     height: 600px;
-    border-color: rgb(251, 207, 108);
-    border-width: 2px 50px 5px;
-    border-style: solid dotted solid;
-
 }
 
 .disable {

@@ -6,5 +6,5 @@ import { HomeComponent } from './components/home/home.component';
 export const routes: Routes = [
     {path:'reserve',component:ReserveComponent },
     {path:'candidate',component:CandidateComponent},
-    {path: 'home', component: HomeComponent }
+    {path: 'home', component: HomeComponent }    
 ];
