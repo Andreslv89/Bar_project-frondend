@@ -3,11 +3,12 @@ import {FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular
 import Swal from 'sweetalert2'
 import { CandidateService } from '../../services/candidate.service';
 import { CarouselComponent } from '../carousel/carousel.component';
+import { ContactfooterComponent } from '../contacts/contactfooter/contactfooter.component';
 
 @Component({
   selector: 'app-candidate',
   standalone: true,
-  imports: [ReactiveFormsModule,CarouselComponent],
+  imports: [ReactiveFormsModule,CarouselComponent,ContactfooterComponent],
   templateUrl: './candidate.component.html',
   styleUrl: './candidate.component.css'
 })
