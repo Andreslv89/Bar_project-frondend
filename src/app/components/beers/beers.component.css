@@ -1,0 +1,23 @@
+.container_beer img {
+    width: 100%;
+    height: 30rem;
+}
+
+.list_price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 40rem;
+    background-color: black;
+    padding-top: 30px; 
+    padding-left: 10rem;
+    border-color: rgb(251, 207, 108);
+    border-width: 2px 50px 5px;
+    border-style: solid double solid;
+}
+
+.list_price p {
+    color: rgb(251, 207,108);
+    padding: 5px;
+}

@@ -38,6 +38,13 @@ z-index: 1;
 
 }
 
+.navbar ul li a:hover{
+    color: #fbcf6c;
+    transform: scale(1.1);
+    border:1px solid #fbcf6c;
+    font-size: 15   px;
+}
+
 .navbar a {
     color:rgb(255, 255, 255);
     font-size: 1.2rem;
