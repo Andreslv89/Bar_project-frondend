@@ -5,6 +5,8 @@ import { HomeComponent } from './components/home/home.component';
 import { SuscribeComponent } from './components/suscribe/suscribe.component';
 import { BeersComponent } from './components/beers/beers.component';
 import { ContactfooterComponent } from './components/contacts/contactfooter/contactfooter.component';
+import { LiquorsComponent } from './components/liquors/liquors.component';
+import { SodaComponent } from './components/soda/soda.component';
 
 export const routes: Routes = [
     {path:'',redirectTo:'home',pathMatch:'full' },
@@ -13,4 +15,6 @@ export const routes: Routes = [
     {path: 'home', component: HomeComponent },
     {path:'suscribe',component:SuscribeComponent},
     {path:'beers',component:BeersComponent},
+    {path:'liquors',component:LiquorsComponent},
+    {path:'soda',component:SodaComponent},
 ];
