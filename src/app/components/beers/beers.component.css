@@ -2,7 +2,6 @@
     width: 100%;
     height: 30rem;
 }
-
 .card_beer {
 display: grid;
 grid-template-columns: repeat(2,1fr);
@@ -23,21 +22,3 @@ border-style: solid;
 .icon_beer img {
     padding-top: 8rem;
 }
-
-/*.list_price { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    height: 40rem;
-    background-color: black;
-    padding-top: 20px;
-    border: 10px groove;
-    border-color: white;
-}
-
-
-.list_price p {
-    color: rgb(251, 207,108);
-    padding: 5px;
-}*/

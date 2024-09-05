@@ -1,0 +1,34 @@
+.container_sportscalendar img {
+    width: 100%;
+    height: 30rem;
+}
+.card_sportscalendar {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    border-color: rgb(251, 207, 108);
+    border-width: 5px 0px 5px 5px;
+    border-style: solid;
+    }
+.card_sportscalendar{
+    height: 30rem;
+    width: 100%;
+}
+
+.Calendario img{
+    justify-self: start;
+    align-self: center;
+    padding-left: 27px;
+    height: 25rem;
+    padding-top: 15px;
+}
+
+.logo img {
+    height: 23rem;
+    width: 65%;
+    padding-top: 36px;
+}

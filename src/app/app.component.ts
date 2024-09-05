@@ -6,6 +6,7 @@ import { ServicesComponent } from './components/services/services.component';
 import { AnnouncementsComponent } from './components/announcements/announcements.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { SuscribeComponent } from './components/suscribe/suscribe.component';
+import { ContactfooterComponent } from './components/contacts/contactfooter/contactfooter.component';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,7 @@ import { SuscribeComponent } from './components/suscribe/suscribe.component';
   imports: [NavbarComponent,RouterOutlet,
   CarouselComponent,
   AnnouncementsComponent,ServicesComponent,
-  ContactsComponent,SuscribeComponent],
+  ContactsComponent,SuscribeComponent,ContactfooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
