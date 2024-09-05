@@ -50,7 +50,6 @@
     grid-template-columns: repeat(2,1fr);
     margin: 0;
     justify-items: center;
-    list-style: none;
 }
 
 .icons {
@@ -58,7 +57,10 @@
     grid-template-columns: repeat(3,1fr);
     padding-top: 50px;
     width: 20rem;
-    height: 25px;  
+    height: 25px; 
+}
+.icons li a{
+    list-style: none;
 }
 
 .icon_facebook  {

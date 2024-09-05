@@ -3,21 +3,41 @@
     height: 30rem;
 }
 
-.list_price {
+.card_beer {
+display: grid;
+grid-template-columns: repeat(2,1fr);
+text-align: center;
+background-color: black;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 20px;
+border-color: rgb(251, 207, 108);
+border-width: 5px 0px 5px 5px;
+border-style: solid;
+}
+
+.menu_beer img{
+    height: 50rem;
+}
+
+.icon_beer img {
+    padding-top: 8rem;
+}
+
+/*.list_price { 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: left;
     height: 40rem;
     background-color: black;
-    padding-top: 30px; 
-    padding-left: 10rem;
-    border-color: rgb(251, 207, 108);
-    border-width: 2px 50px 5px;
-    border-style: solid double solid;
+    padding-top: 20px;
+    border: 10px groove;
+    border-color: white;
 }
+
 
 .list_price p {
     color: rgb(251, 207,108);
     padding: 5px;
-}
+}*/
