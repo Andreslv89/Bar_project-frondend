@@ -6,6 +6,7 @@ import { SuscribeComponent } from './components/suscribe/suscribe.component';
 import { BeersComponent } from './components/beers/beers.component';
 
 export const routes: Routes = [
+    {path:'',redirectTo:'home',pathMatch:'full' },
     {path:'reserve',component:ReserveComponent },
     {path:'candidate',component:CandidateComponent},
     {path: 'home', component: HomeComponent },

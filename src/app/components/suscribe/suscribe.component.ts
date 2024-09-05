@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormsModule,FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import { SuscribeService } from '../../services/suscribe.service';
 import Swal from 'sweetalert2';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-suscribe',
   standalone: true,
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule,NgClass],
   templateUrl: './suscribe.component.html',
   styleUrl: './suscribe.component.css'
 })
@@ -44,6 +45,11 @@ export class SuscribeComponent {
 
   openModal(){
     this.isOpen=!this.isOpen
+  }
+  handleClose(event: MouseEvent) {
+    if ((event.target as HTMLElement).id === 'wrapper') {
+      this.openModal()
+    }
   }
   private resetForm () {
     this.suscribeForm.reset()
