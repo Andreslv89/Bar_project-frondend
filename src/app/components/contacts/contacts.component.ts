@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { HomeComponent } from '../home/home.component';
+import { ContactfooterComponent } from './contactfooter/contactfooter.component';
 
 @Component({
   selector: 'app-contacts',

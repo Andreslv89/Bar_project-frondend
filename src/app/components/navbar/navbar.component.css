@@ -27,6 +27,7 @@ z-index: 1;
 .navbar ul {
     display: flex;
     margin: 0;
+    list-style: none;
 }
 
 .navbar li {
