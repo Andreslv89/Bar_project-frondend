@@ -2,7 +2,6 @@
     width: 100%;
     height: 30rem;
 }
-
 .card_beer {
 display: grid;
 grid-template-columns: repeat(2,1fr);
@@ -23,3 +22,4 @@ border-style: solid;
 .icon_beer img {
     padding-top: 8rem;
 }
+

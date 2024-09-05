@@ -7,6 +7,8 @@ import { BeersComponent } from './components/beers/beers.component';
 import { ContactfooterComponent } from './components/contacts/contactfooter/contactfooter.component';
 import { LiquorsComponent } from './components/liquors/liquors.component';
 import { SodaComponent } from './components/soda/soda.component';
+import { SportscalendarComponent } from './components/sportscalendar/sportscalendar.component';
+
 
 export const routes: Routes = [
     {path:'',redirectTo:'home',pathMatch:'full' },
@@ -17,4 +19,5 @@ export const routes: Routes = [
     {path:'beers',component:BeersComponent},
     {path:'liquors',component:LiquorsComponent},
     {path:'soda',component:SodaComponent},
+    {path:'sportscalendar',component:SportscalendarComponent},
 ];

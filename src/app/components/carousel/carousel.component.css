@@ -4,13 +4,10 @@
   padding: none;
   background-color: rgb(20,75,123);;
 }
-
 .carousel-inner {
   position: relative;
   width: 100%;
 }
-
-
 .carousel-inner img {
   height: 30rem;
   width: 70%;
